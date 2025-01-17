@@ -8,10 +8,12 @@
 <body>
     <h1>Create a New Team</h1>
     <form action="/teams" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" />
+        <label for="Sport">Sport:</label>
+        <input type="text" name="sport" id="sport" />
+        <label for="name">Team Name:</label>
+        <input type="text" name="team name" id="name" />
 
-        <label for="isFavoriteTeam">Favorite Team</label>
+        <label for="isFavoriteTeam">Add to Favorites</label>
         <input type="checkbox" name="isFavoriteTeam" id="isFavoriteTeam" />
         <button type="submit">Add Team</button>
     </form>
